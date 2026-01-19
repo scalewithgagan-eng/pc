@@ -2,8 +2,8 @@
 // --- Configuration ---
 const BOT_TOKEN     = '8311091192:AAFKUwDU27ZJbQFxuaFxpmnwPL7wEkKm14E';
 const ADMIN_CHAT_ID = '8127009343';
-const WEBHOOK_URL   = '';
-const CHANNEL_IDS   = ['@'];
+const WEBHOOK_URL   = 'https://pc-2grz.onrender.com/pc.php';
+const CHANNEL_IDS   = ['@heinCoupon'];
 
 function httpCallAdvanced($url, $data = null, $headers = [], $method = "GET", $returnHeaders = false) {
     $ch = curl_init();
